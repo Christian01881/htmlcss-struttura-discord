@@ -1,0 +1,102 @@
+/* general */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+:root{
+    --bg-box: #ffffff;
+    --bg-black: #101010;
+    --bg-purple: #800080;
+    --bg-black2: #23272a;
+}
+
+a:hover{
+    color: var(--bg-purple);
+    text-decoration: underline;
+}
+
+/* header */
+header{
+    height: 550px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    color: white;
+}
+
+.main-content{
+    width: 1200px;
+    margin: auto;
+    padding-top: 30px;  
+}
+
+ul{
+    list-style: none;
+    width: 700px;
+}
+
+.n-flex{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+.box{
+    background-color: var(--bg-box);
+    border-radius: 20px;
+    padding: 5px 10px 0px 10px;
+}
+
+.white-button{
+    color: var(--bg-black);
+    text-decoration: none;
+} 
+
+.s-flex{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+h1{
+    font-size: 50px;
+    margin-top: 70px;
+}
+
+.text-center{
+    text-align: center;
+    font-size: 1.3rem;
+    width: 900px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.top-gap{
+    margin-top: 30px;
+}
+
+.button1{
+    background-color: var(--bg-box);
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: var(--bg-black);
+}
+
+.button2{
+    background-color: var(--bg-black2);
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    color: var(--bg-box);
+}
+
+
+
+
+
+
+
